@@ -1,15 +1,6 @@
 import math._
 import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.SortedMap
-/*
-// gia lat-long sintetagmenes
-case class Point(x: Double, y: Double) {
-  def distance(other: Point): Double = {
-    val deglen = 110.25
-    deglen*sqrt(pow(x - other.x, 2) + pow((y - other.y)*cos(other.x), 2))
-  }
-}
-*/
 
 case class Point(x: Double, y: Double) {
   def distance(other: Point): Double = sqrt(pow(x - other.x, 2) + pow(y - other.y, 2))

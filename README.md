@@ -1,4 +1,5 @@
-Molis eiste sto scala shell:
+2dKDTREE
+Steps:
 
 1) :load KDTree.scala
 
@@ -12,7 +13,7 @@ Second Tree:
 
 
 Results:
-3):load testKD.scala // DFS, BFS , Dose [x,y] kai des ta paidia tou an einai komvos
+3):load testKD.scala // DFS, BFS , Enter [x,y]
 
 
 Other Commands:
