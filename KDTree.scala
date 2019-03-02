@@ -3,7 +3,10 @@ import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.SortedMap
 
 case class Point(x: Double, y: Double) {
-  def distance(other: Point): Double = sqrt(pow(x - other.x, 2) + pow(y - other.y, 2))
+  def distance(other: Point): Double = {
+    val deglen = 110.25
+    deglen*sqrt(pow(x - other.x, 2) + pow((y - other.y)*cos(other.x), 2))
+  }
 }
 
 case class Node[T <% Ordered[T]](var datax: T, var datay: T, var left: Node[T], var right: Node[T]) {
