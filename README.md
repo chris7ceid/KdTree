@@ -1,19 +1,25 @@
 2dKDTREE
+
 Steps:
 
-1) :load KDTree.scala
+1) 
+:load KDTree.scala
 
 First Tree:
-2) :load init_firstKd.scala
+2) 
+:load init_firstKd.scala
 
             OR
 
 Second Tree:
-2) :load init_secondKd.scala
+2) 
+:load init_secondKd.scala
 
 
 Results:
-3):load testKD.scala // DFS, BFS , Enter [x,y]
+
+3)
+:load testKD.scala // DFS, BFS , Enter [x,y]
 
 
 Other Commands:
